@@ -1,0 +1,30 @@
+.img1{
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+    z-index: 1;
+    top: 0;
+    left:0;
+    opacity: .2;
+    position: relative;
+    
+}
+.img1:hover{
+    transform: scal(-1);
+}
+.img1div{
+    background-image: url('/agd.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment:fixed ;
+}
+
+@media screen and (max-width: 600px) {
+
+    .img1{
+        max-width: 50%;
+    }
+}
+.container{
+    z-index: 1;
+}
